@@ -1,0 +1,6 @@
+flask
+patchelf-wrapper
+pyinstaller
+requests
+scons
+staticx
