@@ -46,13 +46,13 @@ docker run --rm -d -p 8081:5000 --name simpleapi-zip-01 simpleapi:ZIP.3.0.1
 docker image ls | grep simpleapi | sort
 ```
 
-```
-simpleapi                    ZIP.3.0.0   ad919f96f188   2 hours ago         10.4MB
-simpleapi                    ZIP.3.0.1   32447c0d34e1   About an hour ago   9.45MB
-#
-yz.registry:5000/simpleapi   ZIP.2.1.0   25492a0138d0   2 days ago          15.9MB
-yz.registry:5000/simpleapi   ZIP.3.0.1   32447c0d34e1   About an hour ago   9.45MB
-```
+>```
+>simpleapi                    ZIP.3.0.0   ad919f96f188   2 hours ago         10.4MB
+>simpleapi                    ZIP.3.0.1   32447c0d34e1   About an hour ago   9.45MB
+>#
+>yz.registry:5000/simpleapi   ZIP.2.1.0   25492a0138d0   2 days ago          15.9MB
+>yz.registry:5000/simpleapi   ZIP.3.0.1   32447c0d34e1   About an hour ago   9.45MB
+>```
 
 ``` sh
 docker tag simpleapi:ZIP.3.0.1 yz.registry:5000/simpleapi:ZIP.3.0.1
