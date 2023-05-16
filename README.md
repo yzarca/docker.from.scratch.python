@@ -29,14 +29,14 @@ ENTRYPOINT [ "/app/simpleapi" ]
 cat requirements.txt
 ```
 
-```
-flask
-patchelf-wrapper
-pyinstaller
-requests
-scons
-staticx
-```
+>```
+>flask
+>patchelf-wrapper
+>pyinstaller
+>requests
+>scons
+>staticx
+>```
 
 ``` sh
 docker build -f Dockerfile -t simpleapi:ZIP.3.0.1 .
